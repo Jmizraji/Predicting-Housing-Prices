@@ -1,0 +1,7 @@
+*swp
+*checkpoint*
+*pyc
+*.DS_Store
+
+#Ignore everything in the ignored folder
+ignored
