@@ -39,7 +39,7 @@ I few notable insights as I cleaned and manipulated the data.
 
 #### What are the sales prices of the homes? Are there any outliers?
 
-<img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/price_dist.jpeg" alt="prices_dist" style="zoom:67%;" /> <img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/prices_box.jpeg" alt="price_plot" style="zoom:80%;" />
+<img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/price_dist.jpeg" style="zoom:67%;" /> <img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/prices_box.jpeg" alt="price_plot" style="zoom:80%;" />
 
 The mean of the house prices was **$181,484** .  There were also a few outliers greater than $550,000 that were removed from the model. 
 
@@ -47,7 +47,7 @@ The mean of the house prices was **$181,484** .  There were also a few outliers 
 
 #### Which neighborhoods are most expensive?
 
-<img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/prices_by_neighborhood.jpeg" alt="prices_dist" style="zoom:87%;" /> 
+<img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/prices_by_neighborhood.jpeg" alt="prices_dist" style="zoom:87%;" /> 
 
 The average prices of the houses by neighborhood ranged from **$100,231 - $329,675**. The most expensive and cheapest neighborhoods are as follows:
 
@@ -66,7 +66,7 @@ The average prices of the houses by neighborhood ranged from **$100,231 - $329,6
 
 #### What numerical features are most correlated to price?
 
-<img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/corr-saleprice.jpeg" style="zoom:87%;" /> 
+<img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/corr-saleprice.jpeg" style="zoom:87%;" /> 
 
 The most positively correlated features included: Overall Qual, Gr Liv Area, Garage Area, Garage Cars, Total Bsmt SF, 1st Flr SF, Year Built, Year Remod/Add.
 
@@ -74,7 +74,7 @@ The most positively correlated features included: Overall Qual, Gr Liv Area, Gar
 
 #### What categorical features are correlated to price?
 
-<img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/sale_type_cat.jpeg" style="zoom:87%;" /> <img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/bld_type_cat.jpeg" alt="prices_dist" style="zoom:87%;" /><img src="https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/kitch_qual_cat.jpeg" alt="prices_dist" style="zoom:87%;" />
+<img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/sale_type_cat.jpeg" style="zoom:87%;" /> <img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/bld_type_cat.jpeg" alt="prices_dist" style="zoom:87%;" /><img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/kitch_qual_cat.jpeg" alt="prices_dist" style="zoom:87%;" />
 
 New homes and sales that gaurantee the seller holds the deed have the most sales and highest price points. Target 1 Family homes and invest in your kitchen. 
 
@@ -84,7 +84,7 @@ New homes and sales that gaurantee the seller holds the deed have the most sales
 
 For my model, I used a **Linear Regression** and **Elastic Net Regression** model to predict `Sale Price`. I performed a **Train, Test, Split** in order evaluate the bias/varience tradeoff between my model, evaluating how well it predicted current and new data. 
 
-![timeline](https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/Timeline.png)
+<img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/Timeline.png"/>
 
 *Note: Green points ended up improving my score, red points ended up hurting my score*
 
@@ -92,7 +92,7 @@ For my model, I used a **Linear Regression** and **Elastic Net Regression** mode
 
 My model appeared to be slightly overfit, but nonetheless produced a quality score.
 
-![model](https://git.generalassemb.ly/Jmizraji/Submissions/blob/master/Projects/project_2-master/imgs/enet_results_sc.jpeg)
+<img src="https://github.com/Jmizraji/Predicting-Housing-Prices/blob/master/imgs/enet_results_sc.jpeg"/>
 
 **Train, Test, Split** **(R2)**
 
